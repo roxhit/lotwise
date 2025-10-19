@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from "react";
 import { ArrowUpRight, ArrowDownLeft, Target, DollarSign } from "lucide-react";
 
-const API_BASE_URL = "http://localhost:5000";
+const API_BASE_URL = "https://lotwise.onrender.com";
 
 export default function PortfolioTracker() {
   const [currentPage, setCurrentPage] = useState("trades");
